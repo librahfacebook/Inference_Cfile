@@ -1,0 +1,10 @@
+^C:\USERS\LIBRA\DESKTOP\INFERENCE_CFILE\CMAKELISTS.TXT
+setlocal
+C:\software\cmake\bin\cmake.exe -SC:/Users/libra/Desktop/inference_cfile -BC:/Users/libra/Desktop/inference_cfile/build --check-stamp-file C:/Users/libra/Desktop/inference_cfile/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

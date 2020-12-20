@@ -1,0 +1,14 @@
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: C:/Users/libra/Desktop/inference_cfile/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_230bd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.1+bd2ea1e3c
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29333 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_230bd.dir\Debug\\" /Fd"cmTC_230bd.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue C:\Users\libra\Desktop\inference_cfile\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+C:\Users\libra\Desktop\inference_cfile\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [C:\Users\libra\Desktop\inference_cfile\build\CMakeFiles\CMakeTmp\cmTC_230bd.vcxproj]
+
+
+
